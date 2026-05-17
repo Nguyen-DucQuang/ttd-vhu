@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Đăng Nhập</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+
+  <header class="header">
+    <h1>MRS POMADE</h1>
+
+    <nav class="navbar">
+      <a href="#">TRANG CHỦ</a>
+      <a href="#">SẢN PHẨM</a>
+      <a href="#">TRA CỨU ĐƠN HÀNG</a>
+      <a href="#">LỊCH SỬ</a>
+
+      <div class="nav-search">
+        <input type="search" placeholder="Tìm kiếm" aria-label="Tìm kiếm">
+        <button type="button" aria-label="Tìm kiếm">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M10 4a6 6 0 104.472 10.028l4.75 4.75 1.414-1.414-4.75-4.75A6 6 0 0010 4zm0 2a4 4 0 110 8 4 4 0 010-8z"></path>
+          </svg>
+        </button>
+      </div>
+
+      <a href="#" class="nav-icon" aria-label="Người dùng">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 12a4 4 0 100-8 4 4 0 000 8zm0 2c-4.418 0-8 2.239-8 5v1h16v-1c0-2.761-3.582-5-8-5z"></path>
+        </svg>
+      </a>
+
+      <a href="#" class="nav-icon" aria-label="Giỏ hàng">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 18a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4zM6.2 6h14.1l-1.2 7.2A2 2 0 0117.13 15H8.2a2 2 0 01-1.96-1.6L4.38 3H2V1h3a1 1 0 01.98.8L6.2 6z"></path>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="form-box">
+
+      <h2>ĐĂNG NHẬP</h2>
+
+      <form id="loginForm">
+
+        <input type="email"
+        placeholder="Email: aaa@gmail.com"
+        required>
+
+        <input type="password"
+        placeholder="Mật khẩu: ******"
+        required>
+
+        <div class="links">
+          <a href="register.html">Đăng ký</a>
+          <a href="repass.html">Quên mật khẩu</a>
+        </div>
+
+        <button type="submit">
+          XÁC NHẬN
+        </button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer class="footer-image">
+    <img src="img/footer.png" alt="Footer">
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
